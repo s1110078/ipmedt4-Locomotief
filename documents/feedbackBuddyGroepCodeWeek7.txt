@@ -1,0 +1,19 @@
+feedback week 7:
+
+- Landings page trein niet responsive
+- Scrollen van trein werkt niet
+- getTime functie standaard tijd van nu toevoegen? 
+- AM/PM in de browser aanpassen
+- Zoekpagina:
+--- De tijd en datum on mobiel is smaller, zou beter zijn als het zelfde breedte is
+--- Is niet consistent op pc
+--- Er is geen indicatie dat je de tijd en datum moet invullen (placeholder value, op mobiel)
+--- Misschien de standaard datum van vandaag
+- Buddy groep heeft het opgelost door:
+--- Automatisch data laten invullen met placeholder.
+- De tijd in treindukte netter maken
+- De tijd toevoegen aan de table
+- De pijlen netter maken
+- USA stuff
+- Bij het zoeken van stations, automatisch linken naar de treindrukte pagina
+- I.p.v. 2 stations, zoeken naar 1 station + perron

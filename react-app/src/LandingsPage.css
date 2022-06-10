@@ -1,0 +1,133 @@
+* {
+  color: #000b46;
+}
+
+/*  Theme colours:  */
+/*  Yellow: #ffce00 */
+/*  Blue:   #003082 */
+
+.topContainer {
+  background-image: url('/Img/treinHome.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  opacity: 0.99;
+  padding-top: 0;
+  height:50vh;
+  color: #003082;
+}
+
+.LandingsPageImage {
+  width: auto;
+  height: 50vh;
+}
+
+.topText {
+  opacity: 1;
+}
+
+.bottomContainer {
+  background-color: white;
+  height:50vh;
+}
+
+h4 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.row {
+  margin: -100px 5% 0 10%;
+  padding: 20px 0 20px 0;
+  max-width: 100%;
+  justify-content: center;
+
+  opacity: 0.9;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+p {
+  font-size: 17px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*margin: -100px 5% 0 10%;*/
+
+
+
+
+@media screen and (max-width: 850px) {
+  .row {
+    margin-right: 2.5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    margin-right: 2.5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h4 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .topContainer {
+    height:60vh;
+  }
+
+  .row {
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-height: 620px) {
+  .topContainer {
+    height:75vh;
+  }
+
+  .row {
+    margin-top: -200px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

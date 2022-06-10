@@ -1,0 +1,45 @@
+.topbar {
+  margin: 0;
+  background: #003082;
+  width: 100%;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.topbarElements {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.topbarElements li {
+  color: #fff;
+  list-style: none;
+}
+
+.topbarElements li:last-child {
+  margin-left: auto;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.navigation--input {
+  width: 50px;
+  transition: width 0.2s ease-in-out;
+}
+
+.navigation--input:focus {
+  width: 200px;
+}
+
+.navigation--img {
+  height: 20px;
+  width: auto;
+}

@@ -1,0 +1,10 @@
+============================= Feedback week 6 buddy-groep =============================
+- Er zit bij sommige elementen een 'class' in plaats van een 'className'. Het meest in klacht.js
+
+- In klacht.js zit er ook veel herhaling's code, dit zou misschien beter in een loop kunnen (bijvoorbeeld in step4)
+
+- Voor de database, wordt er nog ingelogd als root zonder password. Het is te adviseren om een eigen gebruiker aan te maken en deze rechten te verlenen
+
+- Er zitten redelijk veel !important lines in de css files, kijk hiermee uit in de toekomst, het kan problemen geven met het fixen van layouts
+
+- Voor de rest ziet het er goed uit, misschien nog een tip om consistent engels te schrijven (in de code, niet wat de gebruiker ziet), want soms is het door elkaar (bijvoorbeeld klachtkeuze.js en de rest van de files zijn engels)

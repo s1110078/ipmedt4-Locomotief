@@ -1,0 +1,6 @@
+=============== Feedback week 5 ===============
+- Er is in de KlachtKeuze.css veel gebruik gemaakt van !important, dit is meer een 'band-aid' oplossing voor styling, en kan problemen in de toekomst, pas hiermee op.
+
+- Er zit veel engels en nederlands door elkaar, dit kan verwarrend zijn wanneer het niet consistent blijft bij het lezen van de code. (bijvoorbeeld de benaming van bestanden)
+
+- Verder zijn de benamingen en comments goed beschrijvend in het gehele project. 

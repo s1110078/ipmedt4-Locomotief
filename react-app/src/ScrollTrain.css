@@ -1,0 +1,26 @@
+.ScrollTrain {
+  letter-spacing: 5px;
+}
+
+.menu-item {
+  user-select: none;
+  border: none;
+  pointer-events: none;
+  height: 45px;
+  width: 100%;
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.scrollMenuContainer {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .menu-item {
+    height: 110px;
+  }
+}

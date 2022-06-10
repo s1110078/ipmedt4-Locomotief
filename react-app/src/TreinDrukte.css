@@ -1,0 +1,100 @@
+* {
+  color: #000b46;
+  margin: 0;
+}
+
+.infoContainer {
+  background-color: #ffce00;
+  max-width: 100%;
+  height: auto;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+
+.info{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.vanEnNaarContainer {
+  background-color: #fff;
+  margin-top: 4%;
+  padding: 15px;
+  font-size: 20px;
+}
+
+h2 {
+   margin-top: 15px;
+   text-align: center;
+ }
+
+ h3 {
+   font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: -2%;
+    text-align: center;
+  }
+
+ .infoRegel {
+   font-size: 12px;
+ }
+
+ .infoRegel:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .links {
+   float: left;
+   width: 50%;
+ }
+
+ .rechts {
+   float: right;
+   text-align: right;
+   max-width: 50%;
+ }
+
+ h1 {
+   font-size: 20px;
+   text-align: center;
+   margin: 5px;
+ }
+
+ .geenReis {
+   height: 50vh;
+}
+
+.geenReis h4 {
+  margin: 0;
+  line-height: 50vh;
+}
+
+ @media only screen and (min-width: 768px) {
+   .info {
+     margin: 0 auto;
+   }
+
+   .vanEnNaarContainer {
+     padding: 25px;
+     font-size: 24px;
+   }
+
+   h1 {
+     font-size: 24px;
+     margin: 10px
+   }
+
+   .infoRegel {
+     font-size: 16px;
+   }
+
+   .links {
+     width: 35%;
+   }
+
+   .rechts {
+     width: 65%;
+   }
+ }
